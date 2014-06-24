@@ -37,8 +37,13 @@ describe('File Adapter', function () {
         expect( err ).to.exist;
         expect( res ).to.not.exist;
         done();
-      })
+      });
 
+    });
+
+    it('initialises config defaults for `dest` and `encoding`', function () {
+      expect( file.config.dest ).to.equal( 'db/' );
+      expect( file.config.encoding ).to.equal( 'utf8' );
     });
 
   });

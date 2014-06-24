@@ -11,7 +11,10 @@ var adapter = require('mekanika-adapter')
  * Export adapter
  */
 
-module.exports = exports = adapter.new('file');
+module.exports = exports = adapter.new('file', {
+  dest: 'db/',
+  encoding: 'utf8'
+});
 
 
 /**
