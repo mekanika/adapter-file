@@ -1,0 +1,3 @@
+# adapter-file
+
+Filesystem adapter
