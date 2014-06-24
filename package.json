@@ -15,7 +15,8 @@
     "url": "https://github.com/mekanika/adapter-file/issues"
   },
   "dependencies": {
-    "mekanika-adapter": "~0.2.0"
+    "mekanika-adapter": "~0.2.0",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "mekanika-query": "~0.3.0",

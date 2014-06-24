@@ -3,7 +3,8 @@
  * Dependencies
  */
 
-var adapter = require('mekanika-adapter');
+var adapter = require('mekanika-adapter')
+  , _ = require('lodash');
 
 
 /**
